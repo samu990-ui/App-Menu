@@ -1,0 +1,57 @@
+/*Quita los margenes y espaciados de todo el documento*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Aplica a todo el body*/
+body { 
+    background-color: #dbd3cc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #f2f2f2;
+    background: rgba(0, 0, 0, 0.74);
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem;
+}
+
+.menu-item {
+    margin-top: 1%;
+    height: 2rem;
+    border-radius: 10px;
+    max-width: 100%;
+    background-image: none;
+}
+
+.menu-item:hover {
+    color: #ccccce;
+    background-color: #8b8b8bb9;
+}
+
+.precio {
+    float: right;
+    margin-right: 3%;
+    }
+
+.producto {
+    float: left;
+    margin-left: 3%;
+}
+
+/*
+    centrar verticalmente los items en el div
+*/
+.item {
+    vertical-align: middle;
+    line-height: 2rem; 
+}
+
+#lista-menu {
+    margin: auto;
+    width: 70%;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
